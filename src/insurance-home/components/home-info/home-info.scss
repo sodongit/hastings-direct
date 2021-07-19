@@ -1,0 +1,17 @@
+.home-info-container {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+
+  .home-info-container-left {
+    height: 100%;
+    flex: 1;
+  }
+
+  .home-info-container-right {
+    height: 100%;
+    flex: 0 20rem;
+  }
+}

@@ -1,0 +1,16 @@
+
+.cover-header {
+  display: flex;
+  flex-direction: row;
+}
+.cover-header-text {
+  height: 100%;
+  flex: 1;
+}
+.cover-header-icon-direct,
+.cover-header-icon-premier{
+  height:100%;
+  flex: 0 4rem;
+}
+
+

@@ -1,0 +1,24 @@
+.info-links {
+  height: auto;
+  width: 100%;
+
+  .info-links-header {
+    height: 3.125rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .info-links-content {
+    height: auto;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+
+    .link {
+      padding: 0.25rem 0;
+    }
+  }
+}
