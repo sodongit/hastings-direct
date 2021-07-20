@@ -1,10 +1,12 @@
+@import './styles';
+
 .main-background {
   height: auto;
   max-width: 72rem;
-
-  background-color: grey;
+  position: relative;
 
   display: flex;
   flex-direction: column;
   margin: auto;
+  background-color: $Background-gray;
 }

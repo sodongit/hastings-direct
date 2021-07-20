@@ -1,6 +1,11 @@
+@import './styles';
+
 .get-quote {
   width: 100%;
   height: auto;
-  padding: 2rem 0;
+  padding: 1rem 0 0 0;
   text-align: center;
+  .button {
+    padding-bottom: 1.5rem;
+  }
 }

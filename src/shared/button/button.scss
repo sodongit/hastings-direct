@@ -1,4 +1,4 @@
-$Dark-blue: #011831;
+$Dark-blue: #2b2b2c;
 $Green: #0e838a;
 $White: #ffffff;
 
@@ -7,6 +7,9 @@ $White: #ffffff;
 }
 .standard {
   button {
+    width: 17rem;
+    height: 3rem;
+    border-radius: 0.3rem;
     background-color: $Green;
     color: $White;
     border: 0;

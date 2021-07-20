@@ -1,12 +1,33 @@
+@import './styles';
+
 .footer {
+  position: relative;
   width: 100%;
-  background-color: antiquewhite;
+  background-color: $Dark-blue;
   flex: 0 0 25rem;
   padding: 0 2rem;
   box-sizing: border-box;
+  color: $White95;
+  a {
+    color: $White95;
+    font-size: 0.7rem;
+  }
 
   .footer-links {
     display: flex;
     flex-direction: row;
   }
+
+  .footer-background-curve {
+    height: 2rem;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -2rem;
+    border: none;
+    border-radius: 50% 50% 0 0;
+    background-color: $Dark-blue;
+  }
+
+
 }

@@ -1,19 +1,26 @@
+@import './styles';
+
 .home-quote {
   width: 100%;
-  height: 20rem;
-  background-color: #aaafff;
-  box-sizing: border-box;
-
+  height: 21rem;
   display: flex;
   flex-direction: row;
+
+  box-sizing: border-box;
+  background-color: $White;
+  border-radius: 0.25rem;
+  box-shadow: $BoxShadow10;
+
 
   .home-quote-left {
     height: 100%;
     flex: 1;
     text-align: center;
+    padding: 0 2.7rem;
+
   }
   .home-quote-right {
     height: 100%;
-    flex: 0 42rem;
+    flex: 0 38rem;
   }
 }

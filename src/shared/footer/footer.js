@@ -60,6 +60,7 @@ const Footer = () => {
     }
 
     return <div className="footer">
+        <div className="footer-background-curve"/>
         <div className="footer-links">
         {links.map((linkObj, key) => <LinksFooter key={key} links={linkObj}/>)}
         </div>
