@@ -5,17 +5,34 @@
   width: 100%;
   background-color: $Dark-blue;
   flex: 0 0 25rem;
-  padding: 0 2rem;
+  padding: 3rem 3rem 0 3rem;
   box-sizing: border-box;
   color: $White95;
   a {
     color: $White95;
     font-size: 0.7rem;
   }
+  p {
+    font-size: 0.56rem;
+    line-height: 0.75rem;
+    padding-bottom: 0.5rem;
+  }
 
   .footer-links {
     display: flex;
     flex-direction: row;
+    padding: 0 0 2rem 0;
+    .links-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h4 {
+        margin: 0;
+      }
+    }
+    a {
+      font-size: 0.6rem;
+    }
   }
 
   .footer-background-curve {

@@ -1,12 +1,22 @@
+@import './styles';
+
 .info-links {
   height: auto;
   width: 100%;
+  border-radius: $Border-radius-standard $Border-radius-standard 0 0;
+  box-sizing: border-box;
+  box-shadow: $BoxShadow10;
 
   .info-links-header {
-    height: 3.125rem;
+    height: 2.125rem;
     width: 100%;
-    text-align: center;
-    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $Dark-blue;
+    color: $White95;
+    border-radius: $Border-radius-standard $Border-radius-standard 0 0;
+    box-shadow: $BoxShadow10;
   }
 
   .info-links-content {
@@ -15,7 +25,9 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
+    background-color: $White;
+    box-sizing: border-box;
 
     .link {
       padding: 0.25rem 0;

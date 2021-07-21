@@ -8,12 +8,15 @@ const LinksFooter = ({links}) => {
     useEffect(() => {
         const {linkList} = links;
 
-               setLinkList(linkList);
-    },[links]);
+        setLinkList(linkList);
+    }, [links]);
 
     return <div className="links-footer">
-        <h4>{links.header}</h4>
-        {linkList.map(({text = "", url = "./error"}, key) => (<div key={key} className="link"><a  href={url === "" ? './404' : url}>{text}</a></div>))}
+        <div className="links-footer-content">
+            <h4>{links.header}</h4>
+            {linkList.map(({text = "", url = "./error"}, key) => (
+                <div key={key} className="link"><a href={url === "" ? './404' : url}>{text}</a></div>))}
+        </div>
     </div>;
 };
 

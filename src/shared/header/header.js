@@ -4,7 +4,7 @@ import './header.scss';
 const Header = () => {
     return <React.Fragment>
         <div className="header">
-            <img alt="hastings direct icon"/>
+            <img src="/src/images/desktop/hd-logo-inline.png" alt="hastings direct icon"/>
         </div>
         <div className="header-background">
             <div className="header-backgound-curve"/>
